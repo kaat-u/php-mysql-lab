@@ -1,0 +1,41 @@
+Pasos:
+Ingresa a tu cuenta Gmail.
+Ve a:
+
+Google Account
+
+Activa la verificación en dos pasos.
+
+Luego entra a:
+
+Seguridad → Contraseñas de aplicaciones
+
+Genera una contraseña para:
+Correo
+
+y dispositivo:
+
+Otro (PHPMailer)
+
+Google te dará algo parecido a:
+
+abcdefghijklmnop
+
+Esa será la contraseña que usarás.
+
+2. Cambia esta línea
+
+De:
+
+$mail->Password="Rioazulq12";
+
+A:
+
+$mail->Password="abcdefghijklmnop";
+
+(sin espacios)
+
+3. Agrega estas configuraciones SMTP
+
+Prueba con este código:
+
