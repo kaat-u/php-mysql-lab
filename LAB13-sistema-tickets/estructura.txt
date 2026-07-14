@@ -1,0 +1,11 @@
+SistemaTickets
+    conexion.php
+    login.php
+    validar.php
+    logout.php
+
+    cliente.php
+    guardar_ticket.php
+
+    soporte.php
+    actualizar_ticket.php
